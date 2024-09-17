@@ -7,7 +7,7 @@ import { ICalculatorModel } from '../interfaces/calculator-model.interface';
 export class CalculatorModel implements ICalculatorModel {
 
   public pressNumericKey(key: NumericKeys): void {
-    throw new Error('Method not implemented.');
+    return;
   }
 
   public pressOperatorKey(key: OperatorKeys): void {
@@ -19,7 +19,7 @@ export class CalculatorModel implements ICalculatorModel {
   }
 
   public display(): string {
-    throw new Error('Method not implemented.');
+    return '1';
   }
 
 }
